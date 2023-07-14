@@ -3,7 +3,7 @@
 
 Research Interest : TOD, TTS, Fairness, Education
 
-Language : Korean (native), English (intermediate), French (intermediate)
+Available Language : Korean (native), English (intermediate), French (intermediate)
 
 Email : hyukhunkoh-ai@snu.ac.kr
 
