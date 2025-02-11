@@ -2,49 +2,58 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Hyukhun Koh (고혁훈)</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-    
-    h1 {
-      margin-bottom: 10px;
-    }
-    
-    hr {
-      border: none;
-      border-top: 1px solid #ccc;
-      margin: 20px 0;
-    }
-    
-    section {
-      margin-bottom: 30px;
-    }
-    
-    h2 {
-      margin: 0;
-      font-size: 20px;
-      font-weight: bold;
-    }
-    
-    ul {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
-    
-    li {
-      margin-bottom: 10px;
-    }
-    
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
-  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyukhun Koh - AI Research</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        .papers, .projects, .acknowledgements {
+            margin-top: 20px;
+        }
+        .paper-item {
+            background: #eef7ee;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .paper-item a {
+            font-weight: bold;
+            color: #2e7d32;
+            text-decoration: none;
+        }
+        .paper-item a:hover {
+            text-decoration: underline;
+        }
+        .conference {
+            font-size: 14px;
+            color: #777;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .highlight {
+            background-color: #e8f5e9;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
   <header>
@@ -52,105 +61,71 @@
   </header>
   <hr>
   
-  <section>
-    <h2>About</h2>
-    <p> Ph.D course work in <a href="http://milab.snu.ac.kr/">MILAB</a> (2024.9.1 - present)</p>
-    <p>Research Interests: Educational AI Agent</p>
-      <p>--- Multi-Modal : text-audio (2,4), text-image (7) </p>
-      <p>--- Modeling : dialogue encoder (1), multilingual encoder-decoder (3), multilingual decoder (5), diffusion NLP (9) </p>
-      <p>--- Understanding : user-interaction (1,8), reasoning (7,10) </p>
-      <p>--- AI safety : Priavcy (2 ARR), Jailbreak (2 ARR), Toxicity & Ethics (6,8), Gender bias (3,5,8) </p>
-    <p>Available Languages: Korean (native), English (intermediate), French (intermediate)</p>
-    <p>Email: hyukhunkoh-ai@snu.ac.kr</p>
-    
-  </section>
-  
-  <section>
-    <h2>Papers</h2>
-    <hr>
-    <ul>
-      <li>
-        <p><a href="https://arxiv.org/abs/2412.13422"> <u>10. Generating Diverse Hypotheses for Inductive Reasoning</u> </a>
-        <br/> Kang-il Lee, <u>Hyukhun Koh</u>, Dongryeol Lee, Seunghyun Yoon, Minsung Kim, Kyomin Jung (2025 NAACL Main)</p>
-      </li>
-      <li>
-        <p><a href="https://arxiv.org/abs/2411.06438"> <u>9. PLM-Based Discrete Diffusion Language Models with Entropy-Adaptive Gibbs Sampling</u> </a>
-        <br/> <u>Hyukhun Koh*</u>, Minha Jhang*, Dohyung Kim, Sangmook Lee, Kyomin Jung </p>
-      </li>      
-      <li>
-        <p>8. Intent Induction and Toxicity Mitigation for Reliable LM Agent
-        <br/> <u>Hyukhun Koh</u> (2024 Seoul National University IPAI Outstanding Dissertation Award)</p>
-      </li>      
-      <li>
-        <p><a href="https://arxiv.org/pdf/2406.08702">7. VLind-Bench: Measuring Language Priors in Large Vision-Language Models </a>
-        <br/> Kang-il Lee, Minbeom Kim, Seunghyun Yoon, Minsung Kim, Dongryeol Lee, <u>Hyukhun Koh</u>, Kyomin Jung (2025 NAACL Findings)</p>
-      </li>
-      <li>
-        <p><a href="https://arxiv.org/abs/2402.06900">6. Can LLMs Recognize Toxicity? Definition-Based Toxicity Metric </a>
-        <br/> <u>Hyukhun Koh</u>, Dohyung Kim, Minwoo Lee, Kyomin Jung (2024 EMNLP Findings) </p>
-      </li>      
-      <li>
-        <p><a href="https://aclanthology.org/2024.naacl-long.303/">5. Fine-grained Gender Control in Machine Translation with Large Language Models </a>
-        <br/> Minwoo Lee, <u>Hyukhun Koh</u>, Minsung Kim, Kyomin Jung (2024 NAACL Main)</p>
-      </li>
-      <li>
-        <p><a href="https://aclanthology.org/2023.emnlp-main.267/">4. Diversifying prosodic features of speech via determinantal point processes</a>
-        <br/> Seongho Joo, <u>Hyukhun Koh</u>, Kyomin Jung (2023 EMNLP Main)</p>
-      </li>
-      <li>
-        <p><a href="https://arxiv.org/abs/2305.14016">3. Target-Agnostic Gender-Aware Contrastive Learning for Mitigating Bias in Multilingual Machine Translation</a>
-        <br/> Minwoo Lee, <u>Hyukhun Koh</u>, Kang-il Lee, Dongdong Zhang, Minsung Kim, Kyomin Jung (2023 EMNLP Main)</p>
-      </li>
-      <li>
-        <p><a href="https://drive.google.com/file/d/1_QPZbDJ7JpAo5MK4pPSrs6Rua7wKnVQR/view?pli=1">2. Reflecting dialogue and pretrained information into Multi Modal Emotion Recognition: Focusing on Text and Audio</a>
-        <br/> <u>Hyukhun Koh</u>, Seongho Joo, Kyomin Jung (2023 KCC)</p>
-      </li>
-      <li>
-        <p><a href="https://arxiv.org/abs/2303.13099">1. Multi-View Zero-Shot Open Intent Induction from Dialogues: Multi Domain Batch and Proxy Gradient Transfer</a>
-        <br/> <u>Hyukhun Koh</u>, Haesung Pyun, Nakyeong Yang, Kyomin Jung (2022 SigDial & INLG DSTC 11)</p>
-      </li>
-    </ul>
-  </section>
-  
-  <section>
-    <h2>Acknowledgements</h2>
-    <hr>
-    <ul>
-      <li>
-        <p>Adapting object detection techniques for beat tracking in musical audio
-        <br/> Jaehoon Ahn (Master Thesis) </p>
-      </li>
-    </ul>
-  </section>
-  
+    <div class="container">
+        <h2>About</h2>
+        <p><strong>Ph.D. Course Work</strong> at <a href="http://milab.snu.ac.kr/">MILAB</a> (2024.9.1 - Present)</p>
 
-  <section>
-    <h2>Side Projects</h2>
-    <hr>
-    <ul>
-      <li>
-        <p>Dealing with all sensitive attributes: safe response generation (2023)</p>
-      </li>
-      <li>
-        <p>Medical-expert chatbot system (2022)</p>
-      </li>
-      <li>
-        <p>Lecture to lecture note: Automatically generating educational writing materials (2021)</p>
-      </li>
-      <li>
-        <p>Analysis of the cultural difference between Asia and America in terms of gender-related words (2021)</p>
-      </li>
-      <li>
-        <p>Public transportation distribution analysis and improvement plan derivation (2021)</p>
-      </li>
-      <li>
-        <p>Glass recommendation system: We know what Glasses are good for you Image-to-Image generation using cycle GAN (2020)</p>
-      </li>
-      <li>
-        <p>Developing QA system for medical prescription with Transformer (2020)</p>
-      </li>
-    </ul>
-  </section>
+        <p><strong>Research Interests:</strong> Educational AI Agent</p>
+
+        <ul>
+            <li><strong>Multi-Modal:</strong> text-audio (2,4), text-image (7)</li>
+            <li><strong>Modeling:</strong> dialogue encoder (1), multilingual encoder-decoder (3), multilingual decoder (5), diffusion NLP (9)</li>
+            <li><strong>Understanding:</strong> user-interaction (1,8), reasoning (7,10)</li>
+            <li><strong>AI Safety:</strong> Privacy (2 ARR), Jailbreak (2 ARR), Toxicity & Ethics (6,8), Gender Bias (3,5,8)</li>
+        </ul>
+
+        <p><strong>Available Languages:</strong> <span class="highlight">Korean (native)</span>, <span class="highlight">English (intermediate)</span>, <span class="highlight">French (intermediate)</span></p>
+
+        <p><strong>Email:</strong> <a href="mailto:hyukhunkoh-ai@snu.ac.kr" class="email">hyukhunkoh-ai@snu.ac.kr</a></p>
+    </div>
+  <div class="container">
+        <section class="papers">
+            <h2>Papers</h2>
+            <hr>
+            <div class="paper-item">
+                <p><a href="https://arxiv.org/abs/2412.13422">10. Generating Diverse Hypotheses for Inductive Reasoning</a></p>
+                <p class="conference">Kang-il Lee, <u>Hyukhun Koh</u>, Dongryeol Lee, Seunghyun Yoon, Minsung Kim, Kyomin Jung (2025 NAACL Main)</p>
+            </div>
+            <div class="paper-item">
+                <p><a href="https://arxiv.org/abs/2411.06438">9. PLM-Based Discrete Diffusion Language Models with Entropy-Adaptive Gibbs Sampling</a></p>
+                <p class="conference"><u>Hyukhun Koh*</u>, Minha Jhang*, Dohyung Kim, Sangmook Lee, Kyomin Jung</p>
+            </div>
+            <div class="paper-item">
+                <p>8. Intent Induction and Toxicity Mitigation for Reliable LM Agent</p>
+                <p class="conference"><u>Hyukhun Koh</u> (2024 Seoul National University IPAI Outstanding Dissertation Award)</p>
+            </div>
+            <div class="paper-item">
+                <p><a href="https://arxiv.org/pdf/2406.08702">7. VLind-Bench: Measuring Language Priors in Large Vision-Language Models</a></p>
+                <p class="conference">Kang-il Lee, Minbeom Kim, Seunghyun Yoon, Minsung Kim, Dongryeol Lee, <u>Hyukhun Koh</u>, Kyomin Jung (2025 NAACL Findings)</p>
+            </div>
+            <div class="paper-item">
+                <p><a href="https://arxiv.org/abs/2402.06900">6. Can LLMs Recognize Toxicity? Definition-Based Toxicity Metric</a></p>
+                <p class="conference"><u>Hyukhun Koh</u>, Dohyung Kim, Minwoo Lee, Kyomin Jung (2024 EMNLP Findings)</p>
+            </div>
+        </section>
+
+        <section class="acknowledgements">
+            <h2>Acknowledgements</h2>
+            <hr>
+            <ul>
+                <li>Adapting object detection techniques for beat tracking in musical audio (Jaehoon Ahn, Master Thesis)</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Side Projects</h2>
+            <hr>
+            <ul>
+                <li>Dealing with all sensitive attributes: safe response generation (2023)</li>
+                <li>Medical-expert chatbot system (2022)</li>
+                <li>Lecture to lecture note: Automatically generating educational writing materials (2021)</li>
+                <li>Analysis of the cultural difference between Asia and America in terms of gender-related words (2021)</li>
+                <li>Public transportation distribution analysis and improvement plan derivation (2021)</li>
+                <li>Glass recommendation system: Image-to-Image generation using cycle GAN (2020)</li>
+                <li>Developing QA system for medical prescription with Transformer (2020)</li>
+            </ul>
+        </section>
+    </div>
   
 </body>
 </html>
